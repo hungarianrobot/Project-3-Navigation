@@ -55,6 +55,7 @@
 
             <!-- Put the robot into localization mode -->
             <param name="Mem/IncrementalMemory" type="string" value="false"/>
+            <param name="Mem/InitWMWithAllNodes" type="string" value="true"/>
         </node>
 
         <!-- visualization with rtabmapviz -->
