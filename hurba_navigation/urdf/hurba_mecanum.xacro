@@ -76,7 +76,7 @@
       <origin xyz="0 0 -0.05" rpy=" 0 0 3.14156"/>
       <geometry>
         <!--box size=".4 .4 .4"/-->
-        <mesh filename = "package://hurba_robot/meshes/chassis.dae"/>
+        <mesh filename = "package://hurba_navigation/meshes/chassis.dae"/>
       </geometry>
     </visual>
 
@@ -131,7 +131,7 @@
     <visual name='left_wheel_visual'>
       <origin xyz="0.0 0 0" rpy=" 0 1.5708 1.5708"/>
       <geometry>
-        <mesh filename = "package://hurba_robot/meshes/wheel.dae"/>
+        <mesh filename = "package://hurba_navigation/meshes/wheel.dae"/>
         <!--cylinder radius = ".1" length = ".08"/-->
       </geometry>
     </visual>
@@ -159,7 +159,7 @@
     <visual name='right_wheel_visual'>
       <origin xyz="0 0 0" rpy=" 0 1.5708 1.5708"/>
       <geometry>
-        <mesh filename = "package://hurba_robot/meshes/wheel.dae"/>
+        <mesh filename = "package://hurba_navigation/meshes/wheel.dae"/>
         <!--cylinder radius = ".1" length = ".08"/-->
       </geometry>
     </visual>
@@ -219,7 +219,7 @@
     <visual name='scan_link_visual'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/>
       <geometry>
-        <mesh filename = "package://hurba_robot/meshes/hokuyo.dae"/>
+        <mesh filename = "package://hurba_navigation/meshes/hokuyo.dae"/>
       </geometry>
     </visual>
 
